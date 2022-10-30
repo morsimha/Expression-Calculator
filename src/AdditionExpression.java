@@ -15,11 +15,11 @@ public class AdditionExpression extends CompoundExpression {
         // this.setNum(String.format("%04d", rand.nextInt( 9999))); //4 digits format.
     }
 
-    @Override
-    public boolean equals(Object other) {
-        if((other instanceof AdditionExpression)) // Checks whether the parameter inserted is Fish as needed.
-            return this.calculate() == ((AdditionExpression) other).calculate();
-        CompoundExpression b = (CompoundExpression)other; // Casting from Object to Fish.
-        return super.equals(b);
-    }
+  //  @Override
+//    public boolean equals(Object other) {
+//        if((other instanceof AdditionExpression)) // Checks whether the parameter inserted is Fish as needed.
+//            return this.calculate() == ((AdditionExpression) other).calculate();
+//        CompoundExpression b = (CompoundExpression)other; // Casting from Object to Fish.
+//        return super.equals(b);
+//    }
 }

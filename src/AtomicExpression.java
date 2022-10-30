@@ -2,7 +2,6 @@ public class AtomicExpression extends Expression{
     //protected Expression expression;
 
     public AtomicExpression(double num){
-        super();
         this.num = num +"";
     }
 
@@ -15,12 +14,12 @@ public class AtomicExpression extends Expression{
         return this.num;
     }
 
-    @Override
-    public boolean equals(Object other) {
-        if((other instanceof AtomicExpression)) { // Checks whether the parameter inserted is Fish as needed.
-            AtomicExpression b = (AtomicExpression) other; // Casting from Object to Fish.
-            return this.calculate() == b.calculate();
-        }
-        return false;
-    }
+//    @Override
+//    public boolean equals(Object other) {
+//        if((other instanceof Expression)) { // Checks whether the parameter inserted is Fish as needed.
+//            Expression b = (AtomicExpression) other; // Casting from Object to Fish.
+//            return this.calculate() == b.calculate();
+//        }
+//        return false;
+//    }
 }

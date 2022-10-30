@@ -1,4 +1,6 @@
 public class SubtractionExpression extends CompoundExpression{
+
+
     public SubtractionExpression(Expression num1, Expression num2) {
         super(num1, num2);
     }
@@ -14,11 +16,11 @@ public class SubtractionExpression extends CompoundExpression{
         // this.setNum(String.format("%04d", rand.nextInt( 9999))); //4 digits format.
     }
 
-    @Override
-    public boolean equals(Object other) {
-        if(!(other instanceof SubtractionExpression)) // Checks whether the parameter inserted is Fish as needed.
-            return false;
-        SubtractionExpression b = (SubtractionExpression)other; // Casting from Object to Fish.
-        return super.equals(b);
-    }
+//    @Override
+//    public boolean equals(Object other) {
+//        if(!(other instanceof SubtractionExpression)) // Checks whether the parameter inserted is Fish as needed.
+//            return false;
+//        SubtractionExpression b = (SubtractionExpression)other; // Casting from Object to Fish.
+//        return super.equals(b);
+//    }
 }
