@@ -6,7 +6,7 @@ public class AdditionExpression extends CompoundExpression {
     }
 
     public double calculate(){
-        return (Double.parseDouble(num) + Double.parseDouble(secondNum));
+        return num + secondNum;
     }
 
     @Override

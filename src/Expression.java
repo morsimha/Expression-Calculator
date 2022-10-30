@@ -1,15 +1,11 @@
 /**
- * GuessNumber class is responsible for each game's logic, calculations and attributes.
+ *
  */
 
-import java.util.ArrayList;
-import java.util.Random;
-
 public abstract class Expression {
-    // protected String expression;
-    protected String num;
+    protected double num;
 
-    public String getNum() {
+    public double getNum() {
         return num;
     }
 

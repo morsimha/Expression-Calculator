@@ -1,6 +1,6 @@
 public abstract class CompoundExpression extends Expression {
 //    protected Expression exp1;
-    protected String secondNum;
+    protected double secondNum;
 
 
     public CompoundExpression(Expression exp1, Expression exp2) {

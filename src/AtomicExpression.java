@@ -2,16 +2,16 @@ public class AtomicExpression extends Expression{
     //protected Expression expression;
 
     public AtomicExpression(double num){
-        this.num = num +"";
+        this.num = num;
     }
 
     public double calculate(){
-        return Double.parseDouble(num);
+        return num;
     }
 
     @Override
     public String toString() {
-        return this.num;
+        return num + "";
     }
 
 //    @Override
