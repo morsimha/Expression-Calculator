@@ -1,16 +1,19 @@
 public abstract class CompoundExpression extends Expression {
-//    protected Expression exp1;
+    //CompoundExpression contains 2 numbers, so Adding another double attribute.
     protected double secondNum;
 
 
+
+    //In this constructor, we get 2 Expressions (each contains a double attribute),
+    //and we
     public CompoundExpression(Expression exp1, Expression exp2) {
-        super();
-        this.num = exp1.num; //TODO: can use getters here.
+        super(); //inheriting the first num declaration from Expression.
+        this.num = exp1.num; //
         this.secondNum = exp2.num;
     }
 
     @Override
-    public abstract String toString();
+    public abstract String toString(); //Will be overridden by Addition\Subtraction Expression class.
 
 //    @Override
 //    public boolean equals(Object other) {
@@ -18,7 +21,7 @@ public abstract class CompoundExpression extends Expression {
 //            Expression b = (Expression) other; // Casting from Object to Fish.
 //            return this.calculate() == b.calculate();
 //        }
-//        return false;
+//        return false
 //    }
 
 }

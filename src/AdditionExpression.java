@@ -2,7 +2,7 @@ public class AdditionExpression extends CompoundExpression {
 
 
     public AdditionExpression(Expression exp1, Expression exp2) {
-        super(exp1, exp2);
+        super(exp1, exp2); //inheriting 2 expression from
     }
 
     public double calculate(){
