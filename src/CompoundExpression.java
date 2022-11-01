@@ -1,19 +1,13 @@
 public abstract class CompoundExpression extends Expression {
-    // CompoundExpression contains 2 numbers, so Adding another double attribute.
-    // protected double secondNum;
-    protected Expression first;
-    protected Expression second;
+    // CompoundExpression contains 2 Expressions as attributes.
+    protected Expression firstExp;
+    protected Expression secondExp;
 
-
-
-    //In this constructor, we get 2 Expressions (each contains a double attribute),
-    //and we
+    /*A contractor method that gets 2 Expressions and set them as attributes.
+      A given Expressions may be either an AtomicExp (1 double), or an Expressions with 2 or more doubles in it. */
     public CompoundExpression(Expression exp1, Expression exp2) {
-        super(); //inheriting the first num declaration from Expression.
-//        this.num = exp1.num; //
-//        this.secondNum = exp2.num;
-        this.first = exp1;
-        this.second = exp2;
+        this.firstExp = exp1;
+        this.secondExp = exp2;
     }
 
     @Override

@@ -13,7 +13,7 @@ public abstract class Expression {
 //    }
 
     //abstract method must be overridden
-    public abstract double calculate();
+    protected abstract double calculate();
 
     @Override
     public abstract String toString();

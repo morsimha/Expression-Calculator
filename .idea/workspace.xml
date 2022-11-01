@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/src/CompoundExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubtractionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubtractionExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +91,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtomicExpression.java</url>
-          <line>23</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/AdditionExpression.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
