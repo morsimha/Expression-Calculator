@@ -8,6 +8,10 @@ public abstract class Expression {
     // for that reason, num will be inherited to all classes from here
     protected double num;
 
+//    public Expression(){
+//        this.num = 0;
+//    }
+
     //abstract method must be overridden
     public abstract double calculate();
 

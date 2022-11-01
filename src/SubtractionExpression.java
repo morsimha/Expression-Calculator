@@ -1,16 +1,16 @@
 public class SubtractionExpression extends CompoundExpression{
 
 
-    public SubtractionExpression(Expression num1, Expression num2) {
-        super(num1, num2);
+    public SubtractionExpression(Expression exp1, Expression exp2) {
+        super(exp1, exp2);
     }
 
     public double calculate(){
-        return num - secondNum;
+        return this.first.calculate() - this.second.calculate();
     }
 
     @Override
     public String toString() {
-        return this.num +" - " + this.secondNum;
+        return this.first.calculate() +" - " + this.second.calculate();
     }
 }
