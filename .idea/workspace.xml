@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4aaf0211-df17-473d-88f8-94e372256558" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdditionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdditionExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompoundExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompoundExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtomicExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtomicExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubtractionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SubtractionExpression.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667117451885</updated>
       <workItem from="1667117453576" duration="23317000" />
+      <workItem from="1667550329317" duration="1892000" />
+      <workItem from="1667731558286" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -91,7 +90,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AtomicExpression.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

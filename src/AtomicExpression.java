@@ -1,4 +1,5 @@
 public class AtomicExpression extends Expression{
+    protected double num;
 
     public AtomicExpression(double num){
         this.num = num;
